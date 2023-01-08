@@ -8,7 +8,94 @@
 
 
     <body>
-        <div>
+        <div id="container">
+
+
+            <div>
+                <header>
+                    <img src="file:///Users/krystalkimmel/kk-projects/my-first-website-project/images/cindercobra-logo.PNG" alt="cindercobra-logo">
+                    <nav>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">SUBMIT YOUR ART</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">COLLECTION</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+
+
+
+            <div>
+                <h1>SUBMIT YOUR ART</h1>
+            </div>
+
+
+
+            <div id="form_container">
+                <form action="request/" method="post" id="form">
+                    <fieldset>
+                        <legend style="color: #ffffff;">Request to Submit Form</legend>
+                        <div>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName" name="first_name">
+                        </div>
+
+                        <div>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName" name="last_name">
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="client_email">
+                        </div>
+
+                        <div>
+                            <label for="mobile-number">Mobile #:</label>
+                            <input type="tel" id="mobile-number" name="client_number">
+                        </div>
+
+                        <hr>
+
+                        <div>
+                            <p>Artwork submission type:</p>
+                        </div>
+
+                        <div id="client_type_container">
+                            <div>
+                                <label for="painting">Painting</label>
+                                <input type="checkbox" id="painting" name="client_request_type">
+                            </div>
+                            <div>
+                                <label for="collage">Collage</label>
+                                <input type="checkbox" id="collage" name="client_request_type">
+                            </div>
+                            <div>
+                                <label for="photography">Photography</label>
+                                <input type="checkbox" id="photography" name="client_request_type">
+                            </div>
+                            <div>
+                                <label for="other">Other</label>
+                                <input type="checkbox" id="other" name="client_request_type">
+                            </div>
+                        </div>
+
+                        <div>
+                            <p>Please provide a brief description (minimum of three sentences) about your submission:</p>
+                            <textarea id="textarea" name="client_text_box"></textarea>
+                        </div>
+
+                        <div>
+                            <button id="submit" name="submit_button">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+
 
         </div>
     </body>
