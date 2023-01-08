@@ -6,12 +6,23 @@ H1 Headers
 
 H2 Headers
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    font-color: #237e0c
+    font-color: #f4c430
 
 
 Paragraphs
-    font-family: Arial
+    font-family: monospace
     font-color: #ffffff
+
+Nav Border
+    border width: 1px;
+    border-style: solid
+    border-color: #237e0c
+
+
+Borders (other than 'Nav' border)
+    border-width: 0.5px
+    border-style: solid
+    border-color: #237e0c
 
 
 Nav links
