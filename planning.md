@@ -14,6 +14,10 @@ Paragraphs
     font-color: #ffffff
 
 
+Nav links
+    a:visited - font-color: #ffffff
+
+
 
 HTML structure (initial)
     <!DOCTYPE html>
