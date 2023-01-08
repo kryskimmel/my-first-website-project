@@ -1,0 +1,123 @@
+@media screen {
+
+
+
+    body {
+        background-color: gray;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    #container {
+        width: 100vw;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        background-color: black;
+
+    }
+
+
+    .header_logo {
+        width: 100%;
+        height: 9em;
+        display: inline-flex;
+        justify-content: flex-start;
+
+    }
+
+    #cindercobra-logo {
+        width: 15em;
+        height: 9em ;
+    }
+
+
+    #nav-container {
+        width: 100%;
+        height: 3em;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-top: 1px solid #237e0c;
+        border-bottom: 1px solid #237e0c;
+    }
+
+
+    nav {
+        width: 100%;
+        height: 3em;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav-items {
+        width: 100%;
+        height: 3em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        color: #ffffff;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+    a:visited {
+        color: #FFFFFF;
+    }
+
+
+    #h1-container {
+        width: 100%;
+        height: 10em;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5em;
+
+    }
+
+    h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 0.3em;
+        color: #ffffff;
+        font-size: 8em;
+    }
+
+    p {
+        font-family: monospace;
+        color: #ffffff;
+    }
+
+
+    #welcome-text-container {
+        width: 100%;
+        height: 10em;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    #welcome-text {
+        width: 50%;
+        text-align: center;
+    }
+
+    span {
+        color: #237e0c;
+    }
+
+
+
+
+
+
+
+}
