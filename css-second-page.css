@@ -1,7 +1,5 @@
 @media screen {
 
-
-
     body {
         background-color: gray;
         width: 100vw;
@@ -18,7 +16,6 @@
 
     }
 
-
     .header_logo {
         width: 100%;
         height: 9em;
@@ -31,7 +28,6 @@
         width: 15em;
         height: 9em ;
     }
-
 
     #nav-container {
         width: 100%;
@@ -65,6 +61,7 @@
         list-style: none;
     }
 
+
     a {
         text-decoration: none;
     }
@@ -73,7 +70,6 @@
     a:visited {
         color: #FFFFFF;
     }
-
 
     #h1-container {
         width: 100%;
@@ -98,77 +94,16 @@
     }
 
 
-    #welcome-text-container {
+    #submit-text-container {
         width: 100%;
         height: 8em;
         display: inline-flex;
         justify-content: center;
     }
 
-    #welcome-text {
+    #submit-text {
         width: 50%;
         text-align: center;
     }
-
-    span {
-        color: #237e0c;
-    }
-
-    h2 {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #f4c430; margin-left: 0.5em;
-    }
-
-    #image-container {
-        width: 100%;
-        display: inline-flex;
-        justify-content: center;
-        margin-bottom: 5em;
-    }
-
-    #pop-art-cobra-image {
-        width: 20em;
-        height: 20em;
-    }
-
-    #info-containers {
-        width: 100%;
-        height: 40%;
-        display: inline-flex;
-        justify-content: space-evenly;
-    }
-
-
-    #about-container {
-        border: 0.5px solid #237e0c;
-        width: 20%;
-        height: 20em;
-    }
-
-    #blog-container {
-        border: 0.5px solid #237e0c;
-        width: 20%;
-        height: 20em;
-    }
-
-    #news-container {
-        border: 0.5px solid #237e0c;
-        width: 20%;
-        height: 20em;
-    }
-
-    #about-text, #blog-text, #news-text {
-        margin-left: 1em;
-        margin-right: 1em;
-        text-align: left;
-    }
-
-    #footer-container {
-        width: 100%;
-        height: 9em;
-    }
-
-
-
 
 }
