@@ -1,7 +1,5 @@
 @media screen {
 
-
-
     body {
         background-color: black;
         width: 100vw;
@@ -164,14 +162,14 @@
     }
 
 
-    #news-container {
+    #testimonials-container {
         border: 0.5px solid #237e0c;
         width: 20%;
         height: 20em;
     }
 
 
-    #about-text, #blog-text, #news-text {
+    #about-text, #blog-text, #testimonials-text {
         margin-left: 1em;
         margin-right: 1em;
         text-align: left;
@@ -179,9 +177,52 @@
 
 
     #footer-container {
+        margin-top: 10em;
         width: 100%;
-        height: 9em;
+        display: inline-flex;
+        border-top: 1px solid #28282B;
     }
+
+
+    #cindercobra-logo-footer {
+        width: 5em;
+        height: 3em;
+        margin-left: 1em;
+    }
+
+
+    #logo-and-links {
+        width: 100%;
+        height: 3em;
+        display: inline-flex;
+        align-items: flex-end;
+
+    }
+
+
+    li {
+        width: 10em;
+        height: 3em;
+        margin-left: 4.5em;
+        display: inline-flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #ffffff;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
