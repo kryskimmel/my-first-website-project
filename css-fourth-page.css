@@ -99,7 +99,7 @@
     }
 
 
-    #about-text-container {
+    #collection-text-container {
         width: 100%;
         height: 8em;
         display: inline-flex;
@@ -107,83 +107,42 @@
     }
 
 
-    #about-text {
+    #collection-text {
         width: 50%;
         text-align: center;
     }
-
-
-
-    #h2-container {
-        width: 100%;
-        height: 5em;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5em;
-    }
-
 
     h2 {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 2em;
         color: #f4c430;
+        margin-left: 1em;
+    }
+
+    #cat-expressions-image, #sunflowers-image, #tree-branches-image {
+        width: 15em;
+        height: 15em;
+        margin-left: 1em;
     }
 
 
-    #links-container {
-        width: 47%;
-        height: 10em;
-        display: inline-flex;
-        justify-content: flex-end;
+    #latte-art-image, #tree-fell-on-car-image, #coffee-wall-chicago-starbucks-reserve-image {
+        width: 15em;
+        height: 15em;
+        margin-left: 1em;
+        margin-top: 1em;
     }
 
-    #links {
-        width: 30em;
-        display: inline-flex;
-        flex-direction: column;
-        font-family: monospace;
+    #paintings, #collage, #mixed-media {
         color: #ffffff;
-    }
-
-
-    .link {
         font-family: monospace;
-        color: #ffffff;
-        padding-bottom: 1em;
+        font-size: 15px;
+        margin-left: 2em;
     }
-
-
-    #facebook-icon {
-        color: #3b5998;
-    }
-
-
-    #instagram-icon {
-        color:  #fb3958;
-    }
-
-
-    #twitter-icon {
-        color: #1DA1F2;
-    }
-
-
-    #tiktok-icon {
-        color: #ff0050;
-    }
-
-
-    #youtube-icon {
-        color: #FF0000;
-    }
-
 
     #footer-container {
         width: 100%;
         height: 9em;
     }
-
-
 
 }
